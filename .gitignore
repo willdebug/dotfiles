@@ -1,0 +1,27 @@
+# Ignore everything
+*
+
+# Include folders and their contents
+!.config/nvim/
+!.config/nvim/**
+!.config/waybar/
+!.config/waybar/**
+!.config/hypr/
+!.config/hypr/**
+!.config/ghostty/
+!.config/ghostty/**
+!.config/vicinae/
+!.config/vicinae/**
+!.config/rofi/
+!.config/rofi/**
+!.config/clangd/
+!.config/clangd/**
+!.config/wlogout/
+!.config/wlogout/**
+!.gitignore
+!.README.md 
+!LICENSE
+!.gitconfig 
+!.bashrc
+!.config/
+!.zshrc
