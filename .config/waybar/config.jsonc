@@ -2,7 +2,6 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 20, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
@@ -18,12 +17,10 @@
 				"clock",
     ],
     "modules-right": [
-			"custom/bluetooth",
+			"bluetooth",
 							"custom/weather", 
 				"custom/clipboard",
         "mpd",
-        "idle_inhibitor",
-        "pulseaudio",
         "network",
         "power-profiles-daemon",
         "cpu",
@@ -37,11 +34,24 @@
         "custom/power" 
 
     ],
+		    "bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+        // "format": "󰂯 {status}",
+        // format-* handles every state, so default format is not necessary.
+        "format-on": "󰂯",
+        "format-off": "󰂲",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": "󰂱 {num_connections}",
+        // "tooltip-format": "{controller_alias}\t{controller_address}",
+        // "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-connected": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+    },
 		"custom/title" : {
 			"exec" : "getname", 
 			"restart-interval" : 0
 		},
-		"custom/bluetooth" : {
+		"custom/bluetoothjlal" : {
 			"on-click" : "blueman-applet",
 			"format" : ""
 		},
@@ -206,7 +216,8 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+				"max-height" : 15
     },
     "custom/media": {
         "format": "{icon} {text}",
