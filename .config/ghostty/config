@@ -55,4 +55,4 @@ keybind = ctrl+w=close_tab:this
 #sets font to jetbrains mono 
 font-family = JetBrains Mono
 #Sets theme to Aura
-theme = Aura
+theme = Catppuccin Mocha
