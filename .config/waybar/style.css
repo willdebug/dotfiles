@@ -1,0 +1,295 @@
+* {
+	/* `otf-font-awesome` is required to be installed for icons */
+	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	border-width: 0;
+
+
+}
+
+window#waybar {
+	background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+	background-color: rgb(49, 50, 68);
+	border: 1px solid rgb(108, 112, 134);
+	border-radius: 20px;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+	padding: 2px 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+
+
+button {
+	/* Use box-shadow instead of border so the text isn't offset */
+	box-shadow: inset 0 -3px transparent;
+	/* Avoid rounded borders under each button name */
+	border: none;
+	border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+	background: inherit;
+	box-shadow: inset 0 -3px #ffffff;
+}
+
+/* you can set a style on hover for any module like this */
+#pulseaudio:hover {
+	background-color: #a37800;
+}
+
+#workspaces button {
+	padding: 0 5px;
+	background-color: transparent;
+	color: #ffffff;
+}
+
+#workspaces button:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+	background-color: #64727D;
+	box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+	background-color: #eb4d4b;
+}
+
+#mode {
+	background-color: #64727D;
+	box-shadow: inset 0 -3px #ffffff;
+}
+
+#custom-weather,
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-power,
+#tray,
+#mode,
+#bluetooth,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#custom-clipboard,
+#mpd,
+#custom-title,
+#wlr-taskbar {
+	padding: 0 10px;
+}
+
+#window,
+#workspaces {
+	margin: 0 4px;
+}
+
+#clock {
+	color : white; 
+}
+
+#custom-power {
+	margin-left: 12px;
+	margin-right: 12px;
+	color: rgb(245, 224, 220);
+
+}
+
+#battery {
+	color: #000000;
+}
+
+#battery.charging,
+#battery.plugged {}
+
+@keyframes blink {
+	to {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: steps(12);
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+	padding-right: 15px;
+}
+
+label:focus {}
+
+#cpu {
+	color: rgb(245, 194, 231);
+}
+
+#cpu {
+	color: rgb(203, 166, 247);
+}
+
+#disk {}
+
+#backlight {}
+
+#power-profiles-daemon.performance,
+#power-profiles-daemon.balanced,
+#power-profiles-daemon.power-saver {
+	color: rgb(243, 139, 168);
+}
+
+#network {
+	color: rgb(235, 160, 172);
+}
+
+#pulseaudio {
+	color: rgb(250, 179, 135);
+	padding: 0;
+	font-size: 12;
+}
+
+#wireplumber {
+	color: rgb(250, 179, 135);
+	padding: 0;
+}
+
+#wireplumber.muted {
+	color: rgb(250, 179, 135);
+	padding: 0;
+}
+
+#pulseaudio button {
+	padding: 0;
+	/* remove internal button padding */
+	border: none;
+	/* avoid extra pixels */
+	border-radius: 0;
+}
+
+#pulseaudio:hover {
+	box-shadow: none;
+	/* no hover expansion */
+}
+
+#custom-media {
+	min-width: 100px;
+}
+
+#custom-media.custom-spotify {}
+
+#custom-media.custom-vlc {}
+
+#temperature {}
+
+#temperature.critical {}
+
+
+#tray>.passive {
+	-gtk-icon-effect: dim;
+}
+
+#tray>.needs-attention {
+	-gtk-icon-effect: highlight;
+}
+
+#idle_inhibitor {}
+
+#idle_inhibitor.activated {}
+
+#mpd {}
+
+#mpd.disconnected {}
+
+#mpd.stopped {}
+
+#mpd.paused {}
+
+#language {
+	padding: 0 5px;
+	margin: 0 5px;
+	min-width: 16px;
+}
+
+#keyboard-state {
+	padding: 0 0px;
+	margin: 0 5px;
+	min-width: 16px;
+}
+
+#keyboard-state>label {
+	padding: 0 5px;
+}
+
+#keyboard-state>label.locked {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+	background-color: transparent;
+}
+
+#privacy {
+	padding: 0;
+}
+
+#privacy-item {
+	padding: 0 5px;
+}
+
+#privacy-item.screenshare {}
+
+#privacy-item.audio-in {}
+
+#privacy-item.audio-out {}
+
+#custom-weather {}
+
+#custom-title {}
+
+#memory {
+	color: rgb(242, 205, 205);
+}
+
+#custom-clipboard {
+	color: rgb(249, 226, 175);
+}
+
+#bluetooth {
+	color: rgb(166, 227, 161);
+}
+
+#custom-media {
+	color: rgb(148, 226, 213);
+}
+
+#wlr-taskbar {
+	border: 0;
+}
