@@ -40,3 +40,71 @@
 2026/01/24 21:15:05 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/01/24 21:16:57 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/01/24 21:17:01 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 21:23:08 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 21:24:03 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 21:24:09 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 21:24:20 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 22:10:18 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/24 22:11:42 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:13:49 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:13:49 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:13:49 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:13:49 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 18:13:49 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 18:18:11 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:18:26 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:23:39 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:30:56 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:30:56 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:30:56 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:30:56 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 18:30:56 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 18:32:38 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:34:01 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:34:01 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:34:01 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 18:34:01 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 18:34:01 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/25 19:44:45 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 19:44:45 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:01:40 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:02:56 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:12:13 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:14 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:16 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:16 logger.go:29: INFO: Killing pid 31837, cmd clipse
+2026/01/25 21:13:16 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:16 logger.go:29: INFO: Killing pid 31852, cmd clipse
+2026/01/25 21:13:19 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:19 logger.go:29: INFO: Killing pid 31866, cmd clipse
+2026/01/25 21:13:20 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:20 logger.go:29: INFO: Killing pid 31907, cmd clipse
+2026/01/25 21:13:20 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:20 logger.go:29: INFO: Killing pid 31921, cmd clipse
+2026/01/25 21:13:21 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:13:21 logger.go:29: INFO: Killing pid 31939, cmd clipse
+2026/01/25 21:13:34 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:34 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:34 logger.go:29: INFO: Killing pid 31953, cmd clipse
+2026/01/25 21:14:34 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:34 logger.go:29: INFO: Killing pid 32060, cmd clipse
+2026/01/25 21:14:35 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:35 logger.go:29: INFO: Killing pid 32073, cmd clipse
+2026/01/25 21:14:35 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:35 logger.go:29: INFO: Killing pid 32088, cmd clipse
+2026/01/25 21:14:35 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:35 logger.go:29: INFO: Killing pid 32102, cmd clipse
+2026/01/25 21:14:35 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:35 logger.go:29: INFO: Killing pid 32115, cmd clipse
+2026/01/25 21:14:36 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:36 logger.go:29: INFO: Killing pid 32130, cmd clipse
+2026/01/25 21:14:37 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:38 logger.go:29: INFO: Killing pid 32144, cmd clipse
+2026/01/25 21:14:39 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:39 logger.go:29: INFO: Killing pid 32166, cmd clipse
+2026/01/25 21:14:40 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:40 logger.go:29: INFO: Killing pid 32185, cmd clipse
+2026/01/25 21:14:40 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:40 logger.go:29: INFO: Killing pid 32199, cmd clipse
+2026/01/25 21:14:40 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/25 21:14:40 logger.go:29: INFO: Killing pid 32212, cmd clipse
