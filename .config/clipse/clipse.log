@@ -219,3 +219,34 @@
 2026/01/26 21:51:48 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/01/26 21:51:49 logger.go:29: INFO: CUSTOM THEME DISABLED
 2026/01/26 21:52:36 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:53:36 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:53:36 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:53:36 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:53:36 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 21:53:36 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 21:53:53 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:54:15 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:54:22 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:54:22 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:54:22 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:54:22 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 21:54:22 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 21:55:14 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:55:30 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:58:13 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:58:24 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:59:25 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:59:53 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 21:59:59 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:07 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:15 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:26 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:26 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:26 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:00:26 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 22:00:26 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 22:08:13 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:08:13 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:08:13 logger.go:29: INFO: CUSTOM THEME DISABLED
+2026/01/26 22:08:13 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
+2026/01/26 22:08:13 logger.go:37: WARN: Failed to get active window on Wayland: no suitable tool found (Hyprctl, Wlrctl)
