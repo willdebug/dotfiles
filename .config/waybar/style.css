@@ -85,6 +85,7 @@ button:hover {
 #pulseaudio,
 #wireplumber,
 #custom-media,
+#mpris,
 #custom-power,
 #tray,
 #mode,
@@ -107,6 +108,11 @@ button:hover {
 #clock {
 	color : white; 
 }
+#mpris {
+	color: rgb(148, 226, 213);
+;
+}
+
 
 #custom-power {
 	margin-left: 12px;

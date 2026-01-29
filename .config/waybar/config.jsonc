@@ -9,7 +9,8 @@
         "sway/workspaces",
         "sway/mode",
         "sway/scratchpad",
-        "custom/media", 
+				"mpris",
+
 				"wlr/taskbar" 
     ],
     "modules-center": [
@@ -20,7 +21,9 @@
 			"bluetooth",
 							"custom/weather", 
 				"custom/clipboard",
+				"pulseaudio",
         "mpd",
+
         "network",
         "power-profiles-daemon",
         "cpu",
@@ -34,6 +37,18 @@
         "custom/power" 
 
     ],
+		"mpris": {
+	"format": "{player_icon} {dynamic}",
+	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"player-icons": {
+		"default": "▶",
+		"mpv": "🎵"
+	},
+	"status-icons": {
+		"paused": "⏸"
+	},
+	// "ignored-players": ["firefox"]
+},
 		    "bluetooth": {
         // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
         // "format": "󰂯 {status}",
