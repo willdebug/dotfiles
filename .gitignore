@@ -1,0 +1,40 @@
+# ===========================
+# Ignore everything by default
+# ===========================
+*
+
+# ===========================
+# Include .config folder itself
+# ===========================
+!.config/
+# ===========================
+# Include specific config folders and all contents
+# ===========================
+!.config/rofi/
+!.config/rofi/**
+!.zshrc
+!.config/hypr/
+!.config/hypr/**
+
+!.config/waybar/
+!.config/waybar/**
+!.config/vicinae/
+!.config/vicinae/**
+
+!.config/mako/
+!.config/mako/**
+
+!.config/nvim/
+!.config/nvim/**
+
+.config/clipse/clipse.log
+!.gitignore
+!.config/clangd/
+!.config/clangd/**
+
+!.config/ghostty/
+!.config/ghostty/**
+
+!.config/wlogout/
+!.config/wlogout/**
+
