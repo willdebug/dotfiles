@@ -26,7 +26,6 @@
 
         "network",
         "power-profiles-daemon",
-        "cpu",
         "memory",
         "backlight",
         "keyboard-state",
@@ -34,6 +33,7 @@
         "battery",
         "battery#bat2",
         "tray",
+				"custom/notifications",
         "custom/power" 
 
     ],
@@ -43,12 +43,12 @@
 	"player-icons": {
 		"default": "▶",
 		"mpv": "🎵"
+	}},
+			"custom/notifications": {
+	"format": "\ueaa2",
+	"on-click" : "swaync-client -t"
 	},
-	"status-icons": {
-		"paused": "⏸"
-	},
-	// "ignored-players": ["firefox"]
-},
+
 		    "bluetooth": {
         // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
         // "format": "󰂯 {status}",
@@ -67,7 +67,7 @@
 			"exec" : "getname", 
 			"restart-interval" : 0
 		},
-		"custom/bluetoothjlal" : {
+		"custom/bluetoothjla" : {
 			"on-click" : "blueman-applet",
 			"format" : ""
 		},

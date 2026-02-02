@@ -87,6 +87,7 @@ button:hover {
 #custom-media,
 #mpris,
 #custom-power,
+#custom-notifications,
 #tray,
 #mode,
 #bluetooth,
@@ -149,10 +150,6 @@ button:hover {
 }
 
 label:focus {}
-
-#cpu {
-	color: rgb(245, 194, 231);
-}
 
 #cpu {
 	color: rgb(203, 166, 247);
@@ -281,7 +278,8 @@ label:focus {}
 #custom-title {}
 
 #memory {
-	color: rgb(242, 205, 205);
+		color: rgb(203, 166, 247);
+
 }
 
 #custom-clipboard {
@@ -298,4 +296,8 @@ label:focus {}
 
 #wlr-taskbar {
 	border: 0;
+}
+#custom-notifications {
+	color : rgb(249, 226, 175);
+	
 }
