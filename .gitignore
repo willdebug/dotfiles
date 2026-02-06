@@ -37,4 +37,5 @@
 
 !.config/wlogout/
 !.config/wlogout/**
-
+!.config/matugen 
+!.config/matugen/**

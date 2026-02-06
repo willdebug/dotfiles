@@ -1,0 +1,4 @@
+[config]
+[templates.waybar]
+input_path = "~/.config/waybar/template.css"
+output_path = "~/.config/waybar/colours.css"

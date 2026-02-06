@@ -1,14 +1,7 @@
-@define-color primary @{primary.default.hex};
-@define-color on_primary @{on_primary.default.hex};
-@define-color primary_container @{primary_container.default.hex};
-@define-color on_primary_container @{on_primary_container.default.hex};
-
-@define-color secondary @{secondary.default.hex};
-@define-color on_secondary @{on_secondary.default.hex};
-@define-color secondary_container @{secondary_container.default.hex};
-@define-color on_secondary_container @{on_secondary_container.default.hex};
-
-@define-color surface @{surface.default.hex};
-@define-color on_surface @{on_surface.default.hex};
-@define-color background @{background.default.hex};
-@define-color outline @{outline.default.hex};
+/*
+* Css Colors
+* Generated with Matugen
+*/
+<* for name, value in colors *>
+    @define-color {{name}} {{value.default.hex}};
+<* endfor *>

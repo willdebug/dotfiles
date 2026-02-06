@@ -1,3 +1,5 @@
+@import "colours.css";
+
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
 	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
@@ -15,10 +17,10 @@ window#waybar {
 .modules-left,
 .modules-center,
 .modules-right {
-	background-color: rgba(0 , 0 , 0, 0.5);
-	border: 1px solid rgb(25, 25, 25);
+	background-color : @surface;
+	border: 1px solid @outline_variant;
 	border-radius: 20px;
-	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0px 0px @shadow;
 	padding: 2px 0;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -68,7 +70,7 @@ button:hover {
 #custom-title,
 #wlr-taskbar {
 	padding: 0 10px;
-	color : white;
+	color : @tertiary;
 	font-weight : bold ; 
 }
 
@@ -85,8 +87,13 @@ button:hover {
 
 
 #custom-power {
+	margin-top : 0.5px; 
+	margin-bottom: 0.5px; 
 	margin-left: 12px;
 	margin-right: 12px;
+	background : @primary; 
+	border-radius : 50%; 
+	color : @on_primary; 
 
 }
 
