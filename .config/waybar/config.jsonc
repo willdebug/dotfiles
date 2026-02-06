@@ -54,7 +54,7 @@
         // "format": "󰂯 {status}",
         // format-* handles every state, so default format is not necessary.
         "format-on": "󰂯",
-				"on-click" : "blueman-manager",
+				"on-click" : "overskride",
         "format-off": "󰂲",
         "format-disabled": "", // an empty format will hide the module
         "format-connected": "󰂱 {num_connections}",
