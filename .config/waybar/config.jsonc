@@ -6,32 +6,21 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "sway/workspaces",
-        "sway/mode",
-        "sway/scratchpad",
 				"mpris",
-
+				"custom/launch",
 				"wlr/taskbar" 
     ],
     "modules-center": [
-        "sway/window", 
 				"clock",
     ],
     "modules-right": [
 			"bluetooth",
-							"custom/weather", 
 				"custom/clipboard",
 				"pulseaudio",
         "mpd",
 
         "network",
-        "power-profiles-daemon",
         "memory",
-        "backlight",
-        "keyboard-state",
-        "sway/language",
-        "battery",
-        "battery#bat2",
         "tray",
 				"custom/notifications",
         "custom/power" 
@@ -291,10 +280,8 @@
       "Firefox Web Browser": "Firefox",
       "Foot Server": "Terminal"
     } 
-  }, "custom/weather": {
-    "format": "{}°",
-    "tooltip": true,
-    "interval": 3600,
-    "exec": "wttrbar",
-    "return-type": "json"
-}}
+  }, "custom/launch" : {
+	"format" : "\udb82\udcc7",
+	"on-click" : "vicinae open",
+	"tooltip" : true
+}}}

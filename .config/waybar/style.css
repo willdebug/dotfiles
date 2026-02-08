@@ -60,6 +60,7 @@ button:hover {
 #custom-power,
 #custom-notifications,
 #tray,
+#custom-launch,
 #mode,
 #bluetooth,
 #idle_inhibitor,
@@ -70,7 +71,7 @@ button:hover {
 #custom-title,
 #wlr-taskbar {
 	padding: 0 10px;
-	color : @tertiary;
+	color : @on_surface;
 	font-weight : bold ; 
 }
 
@@ -92,8 +93,7 @@ button:hover {
 	margin-left: 12px;
 	margin-right: 12px;
 	background : @primary; 
-	border-radius : 50%; 
-	color : @on_primary; 
+	border-radius : 50%; color : @on_primary; 
 
 }
 
@@ -128,6 +128,7 @@ label:focus {}
 #cpu {
 	color: rgb(203, 166, 247);
 }
+#clock {color : @primary;}
 
 #disk {}
 
@@ -264,4 +265,9 @@ label:focus {}
 }
 #custom-notifications {
 	
+}
+#custom-launch {
+	border-radius : 50%; 
+	color : @on_primary ; 
+	background-color : @primary; 
 }
