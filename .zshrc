@@ -13,5 +13,5 @@ alias cd='z'
 alias grep='rg'
 alias cat='bat'
 alias ls='exa --icons --colour=always --all'
-eval "$(zoxide init bash)"
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"

@@ -7,3 +7,8 @@ output_path = "~/.config/waybar/colours.css"
 input_path = './templates/vicinae.toml'
 output_path = '~/.local/share/vicinae/themes/matugen.toml'
 post_hook = 'vicinae theme set matugen'
+
+[templates.hyprland]
+input_path = './templates/hyprcolour.conf'
+output_path = '~/.config/hypr/modules/colour.conf'
+post_hook = 'hyprctl reload'
