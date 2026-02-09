@@ -2,7 +2,11 @@
 [templates.waybar]
 input_path = "~/.config/waybar/template.css"
 output_path = "~/.config/waybar/colours.css"
+post_hook = 'killall -SIGUSR2 waybar'
 [templates.vicinae]
 input_path = './templates/vicinae.toml'
 output_path = '~/.local/share/vicinae/themes/matugen.toml'
 post_hook = 'vicinae theme set matugen'
+[templates.wlogout]
+input_path = './templates/wlogout.css'
+output_path = '~/.config/wlogout/colours.css'
