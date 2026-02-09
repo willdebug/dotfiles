@@ -1,18 +1,19 @@
+@import "colours.css";
 * {
 	background-image: none;
 	box-shadow: none;
 }
 
 window {
-	background-color: rgba(12, 12, 12, 1);
+	background-color: alpha(@background , 0.9);
 }
 
 button {
     border-radius: 0;
     border-color: black;
-	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
-	background-color: #1E1E1E;
+	text-decoration-color: @on_primary_fixed;
+    color: @on_primary;
+	background-color: alpha(@surface , 0.9);
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
@@ -21,7 +22,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3700B3;
+	background-color: @primary_fixed_dim;
 	outline-style: none;
 }
 
