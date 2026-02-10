@@ -7,6 +7,7 @@
 # Include .config folder itself
 # ===========================
 !.config/
+!install.zsh
 # ===========================
 # Include specific config folders and all contents
 # ===========================
