@@ -61,7 +61,7 @@
 			"format" : ""
 		},
 		"custom/clipboard" : {
-			"on-click" : "ghostty -e clipse",
+			"on-click" : "cursor-clip",
 			"format" : "󰅇"
 			
 		},
