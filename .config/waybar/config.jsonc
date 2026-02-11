@@ -3,18 +3,13 @@
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     // "width": 1280, // Waybar width
+		"height" : 34,
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-				"custom/scrollmpris",
-				"custom/launch",
-				"wlr/taskbar" 
     ],
     "modules-center": [
-				"clock",
-    ],
-    "modules-right": [
-			"bluetooth",
+							"bluetooth",
 				"custom/clipboard",
 				"pulseaudio",
         "mpd",
@@ -23,18 +18,19 @@
         "memory",
         "tray",
 				"custom/notifications",
-        "custom/power" 
+				"custom/media",
+
+				"clock",
+				"custom/power"
 
     ],
-		"mpris": {
-	"format": "{player_icon} {title}",
-	"max-length": 40,
-	"format-paused": "{status_icon} <i>{title}</i>",
-	"player-icons": {
-		"default": "▶",
-		"mpv": "🎵"
-	},
-	"status-icons" : {"paused" : "⏸"}
+    "modules-right": [
+
+    ],
+		"custom/media": {
+			"on-click" : "hyprwave" , 
+			"format" : "\uf001",
+			"tooltip" : true
 	},
 			"custom/notifications": {
 	"format": "\ueaa2",
@@ -212,18 +208,6 @@
     "escape": true,
     "on-click": "playerctl play-pause"
 	},
-    "custom/media": {
-        "format": "{icon} {text}",
-        "return-type": "json",
-        "max-length": 20,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py",
-				"on-click" : "playerctl play-pause" // Script in resources folder
-    },
     "custom/power": {
         "format" : "⏻ ",
 		"tooltip": true,

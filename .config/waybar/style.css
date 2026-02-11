@@ -12,6 +12,8 @@
 
 window#waybar {
 	background: transparent;
+	padding : 0; 
+	margin : 0;
 }
 
 .modules-left,
@@ -170,12 +172,9 @@ label:focus {}
 }
 
 #custom-media {
-	min-width: 100px;
 }
 
-#custom-media.custom-spotify {}
 
-#custom-media.custom-vlc {}
 
 #temperature {}
 
