@@ -56,7 +56,7 @@ button:hover {
 #pulseaudio,
 #wireplumber,
 #custom-media,
-#mpris,
+#custom-scrollmpris,
 #custom-power,
 #custom-notifications,
 #tray,
@@ -94,6 +94,7 @@ button:hover {
 	margin-right: 12px;
 	background : @primary; 
 	border-radius : 50%; color : @on_primary; 
+	
 
 }
 

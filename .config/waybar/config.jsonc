@@ -6,7 +6,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-				"mpris",
+				"custom/scrollmpris",
 				"custom/launch",
 				"wlr/taskbar" 
     ],
@@ -28,6 +28,7 @@
     ],
 		"mpris": {
 	"format": "{player_icon} {title}",
+	"max-length": 40,
 	"format-paused": "{status_icon} <i>{title}</i>",
 	"player-icons": {
 		"default": "▶",
@@ -205,10 +206,16 @@
         "on-click": "pavucontrol",
 				"max-height" : 15
     },
+		"custom/scrollmpris": {
+    "return-type": "json",
+    "exec": "ScrollMPRIS -w 15 -s 60",
+    "escape": true,
+    "on-click": "playerctl play-pause"
+	},
     "custom/media": {
         "format": "{icon} {text}",
         "return-type": "json",
-        "max-length": 40,
+        "max-length": 20,
         "format-icons": {
             "spotify": "",
             "default": "🎜"
