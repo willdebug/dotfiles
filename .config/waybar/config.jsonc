@@ -46,7 +46,7 @@
 				"on-click" : "overskride",
         "format-off": "󰂲",
         "format-disabled": "", // an empty format will hide the module
-        "format-connected": "󰂱 {num_connections}",
+        "format-connected": "󰂱  {num_connections}",
         // "tooltip-format": "{controller_alias}\t{controller_address}",
         // "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
         "tooltip-format-connected": "{device_enumerate}",
@@ -56,51 +56,11 @@
 			"exec" : "getname", 
 			"restart-interval" : 0
 		},
-		"custom/bluetoothjla" : {
-			"on-click" : "blueman-applet",
-			"format" : ""
-		},
 		"custom/clipboard" : {
 			"on-click" : "cursor-clip",
 			"format" : "󰅇"
 			
 		},
-    // Modules configuration
-    "sway/workspaces": {
-    	"disable-scroll": true,
-         "all-outputs": true,
-        "warp-on-scroll": false,
-        "format": "{name}: {icon}",
-        "format-icons": {
-            "1": "",
-             "2": "",
-            "3": "",
-            "4": "",
-           "5": "",
-            "urgent": "",
-            "focused": "",
-             "default": ""
-         }
-     },
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
-    "sway/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
-    },
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format-disconnected": "Disconnected ",

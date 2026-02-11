@@ -8,6 +8,8 @@
 # ===========================
 !.config/
 !install.zsh
+!.config/fastfetch
+!.config/fastfetch/**
 # ===========================
 # Include specific config folders and all contents
 # ===========================
