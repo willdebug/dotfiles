@@ -18,7 +18,7 @@ window#waybar {
 .modules-center,
 .modules-right {
 	background-color : @surface;
-	border: 1px solid @outline_variant;
+	border: 1px solid @surface_variant;
 	border-radius: 20px;
 	box-shadow: 0 0px 0px @shadow;
 	padding: 2px 0;
