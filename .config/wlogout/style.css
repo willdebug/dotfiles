@@ -27,6 +27,7 @@ button:focus, button:active, button:hover {
 }
 
 #lock {
+		
     background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 		border-radius: 90px;
 		padding : 10px; 
