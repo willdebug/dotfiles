@@ -28,7 +28,7 @@
 
     ],
 		"custom/media": {
-			"on-click" : "hyprwave" , 
+			"on-click" : "hyprwave-toggle visibility" , 
 			"format" : "\uf001",
 			"tooltip" : true
 	},

@@ -1,5 +1,7 @@
 fastfetch
 export PATH
+export FZF_DEFAULT_COMMAND="fd"
+
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
  PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 	fi

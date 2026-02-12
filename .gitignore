@@ -42,3 +42,5 @@
 !.config/wlogout/**
 !.config/matugen 
 !.config/matugen/**
+!.config/hyprwave
+!.config/hyprwave/**

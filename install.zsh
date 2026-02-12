@@ -2,4 +2,4 @@
 
 yay -S zen-browser-bin vicinae overskride nmgui cursor-clip-git 
 
-sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct
+sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct zenity
