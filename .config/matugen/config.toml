@@ -26,3 +26,7 @@ output_path = '~/.config/hypr/hyprlock.conf'
 input_path = "./templates/colours.css"
 output_path = "~/.config/swaync/colours.css"
 post_hook = "swaync-client -rs"
+
+[templates.fastfetch]
+input_path = "./templates/config.jsonc"
+output_path = "~/.config/fastfetch/config.jsonc"
