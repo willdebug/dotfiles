@@ -270,4 +270,8 @@ label:focus {}
 	border-radius : 50%; 
 	color : @on_primary ; 
 	background-color : @primary; 
+	margin : 2px;
+	margin-right : 4px;
+	min-width : 10px; 
+	min-height : 10px;
 }
