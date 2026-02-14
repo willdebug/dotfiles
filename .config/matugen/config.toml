@@ -30,3 +30,10 @@ post_hook = "swaync-client -rs"
 [templates.fastfetch]
 input_path = "./templates/config.jsonc"
 output_path = "~/.config/fastfetch/config.jsonc"
+
+[templates.hyprwave]
+input_path = "~/.config/waybar/template.css"
+output_path = "~/.local/share/hyprwave/colours.css"
+post_hook = 'killall -SIGUSR2 hyprwave'
+
+
