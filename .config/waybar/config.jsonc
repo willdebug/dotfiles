@@ -64,7 +64,7 @@
 
 		"custom/launch" : {
 		"format" : "\udb82\udcc7",
-		"on-click" : "vicinae open"
+		"on-click" : "rofi -show"
 	},
 		"custom/media": {
 			"on-click" : "hyprwave-toggle visibility" , 
