@@ -36,4 +36,6 @@ input_path = "~/.config/waybar/template.css"
 output_path = "~/.local/share/hyprwave/colours.css"
 post_hook = 'killall -SIGUSR2 hyprwave'
 
-
+[templates.rofi]
+input_path = "~/.config/matugen/templates/matugen.rasi"
+output_path = "~/.config/rofi/matugen.rasi"
