@@ -7,25 +7,44 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+			"custom/launch",
+			"mpris"
     ],
     "modules-center": [
+
+
+				"clock",
+
+    ],
+    "modules-right": [
 				"bluetooth",
 				"custom/clipboard",
 				"pulseaudio",
-
         "network",
         "memory",
         "tray",
 				"custom/notifications",
-				"custom/media",
 
-				"clock",
+
+
 				"custom/power"
 
-    ],
-    "modules-right": [
 
     ],
+		"mpris": {
+	"format": "{player_icon} {title}",
+	"format-paused": "{status_icon} <i>{title}</i>",
+	"title-len" : 20,
+	"player-icons": {
+		"default": "▶",
+		"mpv": "🎵"
+	},
+		"status-icons" : {"paused" : "\uf04c"}},
+			"custom/notifications": {
+	"format": "\ueaa2",
+	"on-click" : "swaync-client -t"
+	},
+
 		"custom/launch" : {
 		"format" : "\udb82\udcc7",
 		"on-click" : "vicinae open"

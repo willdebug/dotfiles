@@ -29,10 +29,6 @@ window#waybar {
 }
 
 
-
-
-
-
 button {
 	/* Use box-shadow instead of border so the text isn't offset */
 	box-shadow: inset 0 -3px transparent;
@@ -58,11 +54,12 @@ button:hover {
 #pulseaudio,
 #wireplumber,
 #custom-media,
-#custom-scrollmpris,
+#mpris,
 #custom-power,
 #custom-notifications,
 #tray,
 #custom-launch,
+#mpd,
 #mode,
 #bluetooth,
 #idle_inhibitor,
@@ -85,10 +82,9 @@ button:hover {
 #clock {
 }
 #mpris {
-;
 }
 
-
+#mpd {}
 #custom-power {
 	margin-top : 0.5px; 
 	margin-bottom: 0.5px; 
