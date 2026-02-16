@@ -81,6 +81,7 @@ button:hover {
 #window,
 #workspaces {
 	margin: 0 4px;
+	margin-right : -40px;
 }
 #workspaces button.active {
 	border-radius : 50px ; 
