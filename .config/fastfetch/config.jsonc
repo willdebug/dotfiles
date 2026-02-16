@@ -4,8 +4,8 @@
     "type": "auto",
     "source": "",
     "color": {
-      "1": "#eab5ee",
-      "2": "#eab5ee",
+      "1": "#a9c7ff",
+      "2": "#a9c7ff",
       "3": "",
       "4": "",
       "5": "",
@@ -39,7 +39,7 @@
     "separator": ": ",
     "color": {
       "keys": "",
-      "title": "#eab5ee",
+      "title": "#a9c7ff",
       "output": "",
       "separator": ""
     },

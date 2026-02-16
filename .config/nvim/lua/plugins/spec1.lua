@@ -346,4 +346,56 @@ return {
 			},
 		},
 	},
-}
+	  {
+    'isakbm/gitgraph.nvim',
+    opts = {
+      git_cmd = "git",
+      symbols = {
+        merge_commit = 'M',
+        commit = '*',
+      },
+      format = {
+        timestamp = '%H:%M:%S %d-%m-%Y',
+        fields = { 'hash', 'timestamp', 'author', 'branch_name', 'tag' },
+      },
+      hooks = {
+        on_select_commit = function(commit)
+          print('selected commit:', commit.hash)
+        end,
+        on_select_range_commit = function(from, to)
+          print('selected range:', from.hash, to.hash)
+        end,
+      },
+    },
+    keys = {
+      {
+        "<leader>gl",
+        function()
+          require('gitgraph').draw({}, { all = true, max_count = 5000 })
+        end,
+        desc = "GitGraph - Draw",
+      },
+    },
+  },
+
+	{
+  "NeogitOrg/neogit",
+  lazy = true,
+  dependencies = {
+    "nvim-lua/plenary.nvim",         -- required
+
+    -- Only one of these is needed.
+    "sindrets/diffview.nvim",        -- optional
+    "esmuellert/codediff.nvim",      -- optional
+
+    -- Only one of these is needed.
+    "nvim-telescope/telescope.nvim", -- optional
+    "ibhagwan/fzf-lua",              -- optional
+    "nvim-mini/mini.pick",           -- optional
+    "folke/snacks.nvim",             -- optional
+  },
+  cmd = "Neogit",
+  keys = {
+    { "<leader>gg", "<cmd>Neogit<cr>", desc = "Show Neogit UI" }
+  }
+}}
