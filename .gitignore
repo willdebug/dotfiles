@@ -18,7 +18,7 @@
 !.zshrc
 !.config/hypr/
 !.config/hypr/**
-
+!README.md
 !.config/waybar/
 !.config/waybar/**
 !.config/vicinae/
