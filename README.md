@@ -1,2 +1,2 @@
 # Introduction 
-Welcome to my dotfiles. I have attempted to make these as beginner friendly as possible though if in doubt do not hesitate to contact me.
+These are my dotfiles. NOTE that the install.sh script is not complete yet and that i have no timescale for its completion. This tries to have a nice cohesive look across rofi , wlogout waybar and hyprland border colours and hopefully more will be added along with this. Also note that parts of this also requires the installation of rust as the wallpaper-util script is not in any package repos other than crates.io. To install it install rustup and run cargo install wallpaper-util.
