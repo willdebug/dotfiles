@@ -385,8 +385,7 @@ return {
     "nvim-lua/plenary.nvim",         -- required
 
     -- Only one of these is needed.
-    "sindrets/diffview.nvim",        -- optional
-    "esmuellert/codediff.nvim",      -- optional
+    "sindrets/diffview.nvim", 
 
     -- Only one of these is needed.
     "nvim-telescope/telescope.nvim", -- optional
@@ -398,4 +397,4 @@ return {
   keys = {
     { "<leader>gg", "<cmd>Neogit<cr>", desc = "Show Neogit UI" }
   }
-}}
+},{"sindrets/diffview.nvim"}}
