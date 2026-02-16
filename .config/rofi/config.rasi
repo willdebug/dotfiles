@@ -25,7 +25,8 @@ configuration {
 
 window {
     location:       center;
-    width:          480;
+    width:          600;
+		height: 400;
     y-offset:       -20;
     border-radius:  24px;
 
