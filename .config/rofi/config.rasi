@@ -40,7 +40,6 @@ mainbox {
 
 inputbar {
     background-color:   @background;
-    border-color:       @primary;
     border-radius:  16px;
     border:         2px;
 
