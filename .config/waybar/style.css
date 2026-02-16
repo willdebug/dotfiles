@@ -36,6 +36,7 @@ button {
 	/* Avoid rounded borders under each button name */
 	border: none;
 	border-radius: 0;
+	transition : 0.3s ease;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -84,9 +85,9 @@ button:hover {
 #window,
 #workspaces {
 	margin: 0 4px;
-	margin-right : -40px;
+	margin-right : -7px;
 }
-#workspaces button.active {
+#workspaces button.active , #workspaces button:hover{
 	border-radius : 50px ; 
 	background : @primary; 
 	color : @on_primary;
