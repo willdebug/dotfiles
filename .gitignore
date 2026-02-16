@@ -7,6 +7,11 @@
 # Include .config folder itself
 # ===========================
 !.config/
+./.config/wlogout/colours.css
+./.config/hypr/modules/colour.conf
+./.config/waybar/colours.css
+./.config/hypr/hyprpaper.conf
+
 !install.sh
 !.config/fastfetch
 !.config/fastfetch/**
