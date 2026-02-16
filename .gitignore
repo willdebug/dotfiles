@@ -7,7 +7,7 @@
 # Include .config folder itself
 # ===========================
 !.config/
-!install.zsh
+!install.sh
 !.config/fastfetch
 !.config/fastfetch/**
 # ===========================

@@ -1,13 +1,14 @@
 configuration {
-    modes: "drun,filebrowser,window,run,ssh";
+    modes: "drun,filebrowser,window,run,ssh,emoji:rofimoji";
     sorting-method: "normal";
     show-icons:true;
-    matching: "fuzzy"; 
+    matching-rofimoji: "glob"; 
     drun-match-fields: "name";
     display-run: "Menu:";
     display-ssh: "SSH:";
     display-drun: "Apps:";
     display-window: "Windows:";
+		display-rofimoji : "Emojis:";
 }
 
 @theme "matugen"
