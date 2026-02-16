@@ -25,13 +25,16 @@
         "memory",
         "tray",
 				"custom/notifications",
-
-
-
+				"custom/wallpaper",
 				"custom/power"
 
 
     ],
+		"custom/wallpaper" : {
+			"format" : "\udb83\ude09", 
+			"on-click": "setsid wallpaper-util"
+
+			},
 		  "hyprland/workspaces": {
     "on-scroll-up": "hyprctl dispatch workspace r-1",
     "on-scroll-down": "hyprctl dispatch workspace r+1",

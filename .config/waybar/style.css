@@ -58,6 +58,7 @@ button:hover {
 #mpris,
 #hyprland-workspaces,
 #custom-power,
+#custom-wallpaper,
 #custom-notifications,
 #tray,
 #custom-launch,
@@ -77,6 +78,8 @@ button:hover {
 	color : @on_surface;
 	font-weight : bold ; 
 }
+
+#custom-wallpaper {}
 
 #window,
 #workspaces {
