@@ -11,7 +11,7 @@
 ./.config/hypr/modules/colour.conf
 ./.config/waybar/colours.css
 ./.config/hypr/hyprpaper.conf
-
+!.config/starship.toml
 !install.sh
 !.config/fastfetch
 !.config/fastfetch/**
