@@ -18,11 +18,15 @@ input_path = "./templates/colours.css"
 output_path = "~/.config/swaync/colours.css"
 post_hook = "swaync-client -rs"
 
-[templates.hyprwave]
-input_path = "~/.config/waybar/template.css"
-output_path = "~/.local/share/hyprwave/colours.css"
-post_hook = 'killall -SIGUSR2 hyprwave'
-
 [templates.rofi]
 input_path = "~/.config/matugen/templates/matugen.rasi"
 output_path = "~/.config/rofi/matugen.rasi"
+
+[templates.gtk4]
+input_path = "./templates/gtk-colours.css"
+output_path = "~/.config/gtk-4.0/gtk.css"
+
+[templates.gtk3]
+input_path = "./templates/gtk-colours.css"
+output_path = "~/.config/gtk-3.0/gtk.css"
+
