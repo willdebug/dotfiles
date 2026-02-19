@@ -8,24 +8,22 @@
     // Choose the order of the modules
     "modules-left": [
 			"custom/launch",
-			"hyprland/workspaces",
+			"memory",
+			"custom/clipboard",
+
 			"mpris"
     ],
     "modules-center": [
-
-
-				"clock",
-
+			"hyprland/workspaces"
     ],
     "modules-right": [
 				"bluetooth",
-				"custom/clipboard",
 				"pulseaudio",
         "network",
-        "memory",
         "tray",
 				"custom/notifications",
 				"custom/wallpaper",
+				"clock",
 				"custom/power"
 
 
@@ -67,7 +65,8 @@
 
 		"custom/launch" : {
 		"format" : "\udb82\udcc7",
-		"on-click" : "rofi -show"
+		"on-click" : "rofi -show",
+		"height" : 30
 	},
 		"custom/media": {
 			"on-click" : "hyprwave-toggle visibility" , 
@@ -144,8 +143,7 @@
         }
     },
      "clock": {
-        "format": "{:%H:%M}",
-        "format-alt": "{:L%A, %B %d, %Y (%R)}",
+        "format": "{:%H:%M  %d/%m/%g}",
 			},
     "cpu": {
         "format": "{usage}% ",
@@ -203,7 +201,7 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "\udb81\uddaa",
-				"on-click" : "nmgui"
+				"on-click" : "airctl"
     },
     "pulseaudio": {
         "scroll-step": 1, // %, can be a float
