@@ -2,7 +2,7 @@
 
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
-	font-family: "Google Sans Flex" ;
+	font-family: "Google Sans Flex";
 	font-size: 0.82rem;
 	margin: 0;
 	border-width: 0;
@@ -12,8 +12,8 @@
 
 window#waybar {
 	background: transparent;
-	padding : 0; 
-	margin : 0;
+	padding: 0;
+	margin: 0;
 }
 
 .modules-left,
@@ -26,7 +26,7 @@ window#waybar {
 	padding: 2px 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	
+
 }
 
 
@@ -36,7 +36,7 @@ button {
 	/* Avoid rounded borders under each button name */
 	border: none;
 	border-radius: 0;
-	transition : 0.3s ease;
+	transition: 0.3s ease;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -44,6 +44,7 @@ button:hover {
 	background: inherit;
 	box-shadow: inset 0 -3px #ffffff;
 }
+
 #custom-weather,
 #clock,
 #battery,
@@ -76,8 +77,8 @@ button:hover {
 #custom-title,
 #wlr-taskbar {
 	padding: 0 10px;
-	color : @on_surface;
-	font-weight : bold ; 
+	color: @on_surface;
+	font-weight: bold;
 }
 
 #custom-wallpaper {}
@@ -85,33 +86,35 @@ button:hover {
 #window,
 #workspaces {
 	margin: 0 4px;
-	margin-right : -7px;
-}
-#workspaces button.active , #workspaces button:hover{
-	border-radius : 50px ; 
-	background : @primary; 
-	color : @on_primary;
+	margin-right: -7px;
 }
 
-#clock {
+#workspaces button.active,
+#workspaces button:hover {
+	border-radius: 50px;
+	background: @primary;
+	color: @on_primary;
 }
-#mpris {
-}
+
+#clock {}
+
+#mpris {}
 
 #mpd {}
+
 #custom-power {
-	margin-top : 0.5px; 
-	margin-bottom: 0.5px; 
+	margin-top: 0.5px;
+	margin-bottom: 0.5px;
 	margin-left: 12px;
 	margin-right: 12px;
-	background : @primary; 
-	border-radius : 50%; color : @on_primary; 
-	
+	background: @primary;
+	border-radius: 50%;
+	color: @on_primary;
+
 
 }
 
-#battery {
-}
+#battery {}
 
 #battery.charging,
 #battery.plugged {}
@@ -141,7 +144,10 @@ label:focus {}
 #cpu {
 	color: rgb(203, 166, 247);
 }
-#clock {color : @primary;}
+
+#clock {
+	color: @primary;
+}
 
 #disk {}
 
@@ -149,11 +155,9 @@ label:focus {}
 
 #power-profiles-daemon.performance,
 #power-profiles-daemon.balanced,
-#power-profiles-daemon.power-saver {
-}
+#power-profiles-daemon.power-saver {}
 
-#network {
-}
+#network {}
 
 #pulseaudio {
 	padding: 0;
@@ -181,8 +185,7 @@ label:focus {}
 	/* no hover expansion */
 }
 
-#custom-media {
-}
+#custom-media {}
 
 
 
@@ -257,31 +260,27 @@ label:focus {}
 
 #custom-title {}
 
-#memory {
+#memory {}
 
-}
+#custom-clipboard {}
 
-#custom-clipboard {
-}
+#bluetooth {}
 
-#bluetooth {
-}
-
-#custom-media {
-}
+#custom-media {}
 
 #wlr-taskbar {
 	border: 0;
 }
-#custom-notifications {
-	
-}
+
+#custom-notifications {}
+
 #custom-launch {
-	border-radius : 50%; 
-	color : @on_primary ; 
-	background-color : @primary; 
-	margin : 2px;
-	margin-right : 4px;
-	min-width : 10px; 
-	min-height : 10px;
+	border-radius: 50%;
+	color: @on_primary ;
+	background-color: @primary;
+	margin: 2px;
+	margin-right: 4px;
+	margin-left: 12px;
+	min-width: 10px;
+	min-height: 10px;
 }
