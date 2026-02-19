@@ -1,7 +1,7 @@
 * {
-	background: {{ colors.background.dark.hex }}AA;
+	background: {{ colors.background.dark.hex }}5A;
 	primary: {{ colors.primary.dark.hex }};
 	on-surface: {{ colors.on_surface.dark.hex }};
-	surface: {{ colors.surface.dark.hex }}AA;
+	surface: {{ colors.surface.dark.hex }}5A;
 	on-primary : {{ colors.on_primary.dark.hex }};
 }
