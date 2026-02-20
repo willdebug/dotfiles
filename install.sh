@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-yay -S vicinae overskride nmgui cursor-clip-git zenity-gtk3 
+yay -S vicinae overskride nmgui cursor-clip-git zenity-gtk3 airctl
 
-sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct firefox zsh starship rofimoji adw-gtk-theme zoxide fd eza
+sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct firefox zsh starship rofimoji adw-gtk-theme zoxide fd eza 
 
 cargo install wallpaper-util
 
