@@ -19,6 +19,8 @@
 # Include specific config folders and all contents
 # ===========================
 !.config/rofi/
+!.config/swaync/
+!.config/swaync/**
 !.config/rofi/**
 !.zshrc
 !.config/hypr/
