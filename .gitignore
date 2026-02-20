@@ -7,6 +7,8 @@
 # Include .config folder itself
 # ===========================
 !.config/
+!.config/flameshot/
+!.config/flameshot/**
 ./.config/wlogout/colours.css
 ./.config/hypr/modules/colour.conf
 ./.config/waybar/colours.css
