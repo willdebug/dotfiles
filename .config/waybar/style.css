@@ -71,7 +71,7 @@ button:hover {
 #power-profiles-daemon,
 #custom-clipboard,
 #mpd,
-#custom-title,
+#window,
 #wlr-taskbar {
 	padding: 0 10px;
 	color: @on_surface;
@@ -98,6 +98,10 @@ button:hover {
 #mpris {}
 
 #mpd {}
+#window {
+	margin-right : 12px;
+	font-weight : bold;
+}
 
 #custom-power {
 	margin-top: 0.5px;

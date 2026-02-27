@@ -14,8 +14,10 @@
 			"mpris"
     ],
     "modules-center": [
-			"hyprland/workspaces"
+			"hyprland/workspaces",
+			"hyprland/window"
     ],
+
     "modules-right": [
 				"bluetooth",
 				"pulseaudio",
@@ -28,6 +30,10 @@
 
 
     ],
+		"hyprland/window" : {
+			"format" : "{initialTitle}   ",
+			"max-length" : 30
+		},
 		"custom/wallpaper" : {
 			"format" : "\udb83\ude09", 
 			"on-click": "setsid wallpaper-util"
