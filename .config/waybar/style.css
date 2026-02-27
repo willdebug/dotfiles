@@ -101,6 +101,7 @@ button:hover {
 #window {
 	margin-right : 12px;
 	font-weight : bold;
+	color : @primary;
 }
 
 #custom-power {
