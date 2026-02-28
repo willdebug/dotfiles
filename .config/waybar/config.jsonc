@@ -35,7 +35,9 @@
 			"exec" : "~/.config/waybar/updates.zsh",
 			"interval" : 1200,
 			"format" : "\udb81\udeb0  {}  ",
-			"on-click" : "~/.config/waybar/updatesystem.zsh"
+			"on-click" : "~/.config/waybar/updatesystem.zsh",
+			"return-type" : "json",
+			"tooltip" : "true"
 		},
 		"hyprland/window" : {
 			"format" : "{initialTitle}   ",
@@ -223,7 +225,7 @@
         "format-bluetooth-muted": " {icon}",
         "format-muted": "",
         "format-icons": {
-            "headphone": "",
+            "headphone": "\uee58",
             "hands-free": "",
             "headset": "",
             "phone": "",
