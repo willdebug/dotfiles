@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-yay -S vicinae overskride nmgui cursor-clip-git zenity-gtk3 airctl
+yay -S vicinae overskride nmgui cursor-clip-git zenity-gtk3 airctl python-pywalfox
 
 sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct firefox zsh starship rofimoji adw-gtk-theme zoxide fd eza  hyprpolkitagent pacman-contrib
 
@@ -8,3 +8,4 @@ cargo install wallpaper-util
 
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+sudo pywalfox install
