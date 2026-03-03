@@ -34,3 +34,8 @@ output_path = "~/.config/gtk-3.0/gtk.css"
 input_path = './templates/colours.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-colours.ini'
+output_path = '~/.config/cava/config'
+post_hook = "pkill -USR1 cava"

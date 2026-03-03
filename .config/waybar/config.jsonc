@@ -35,7 +35,7 @@
 			"exec" : "/home/william/.config/waybar/updates.zsh",
 			"interval" : 1200,
 			"format" : "\udb81\udeb0  {}  ",
-//			"on-click" : "/home/william/.config/waybar/updatesystem.zsh",
+  		"on-click" : "/home/william/.config/waybar/updatesystem.zsh",
 			"return-type" : "json",
 			"tooltip" : "true"
 		},
@@ -221,13 +221,13 @@
     "pulseaudio": {
         "scroll-step": 1, // %, can be a float
         "format": " ",
-        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon} ",
         "format-bluetooth-muted": " {icon}",
         "format-muted": "",
         "format-icons": {
             "headphone": "\uee58",
             "hands-free": "",
-            "headset": "",
+            "headset": "\uee58",
             "phone": "",
             "portable": "",
             "car": "",
