@@ -2,7 +2,7 @@
 
 yay -S vicinae overskride nmgui cursor-clip-git zenity-gtk3 airctl python-pywalfox
 
-sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct firefox zsh starship rofimoji adw-gtk-theme zoxide fd eza  hyprpolkitagent pacman-contrib cava
+sudo pacman -S waybar hyprland hyprpaper hyprlock matugen neovim ghostty qt5ct qt6ct firefox zsh starship rofimoji adw-gtk-theme zoxide fd eza  hyprpolkitagent pacman-contrib cava zen-browser
 
 cargo install wallpaper-util
 
