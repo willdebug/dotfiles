@@ -158,6 +158,7 @@
     },
      "clock": {
         "format": "{:%H:%M  %d/%m/%g}",
+				"on-click" : "thunderbird -calendar"
 			},
     "cpu": {
         "format": "{usage}% ",
